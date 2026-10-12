@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CGunbasicSO : MonoBehaviour
+public class CGunbasic : MonoBehaviour
 {
     [SerializeField] private CGunBasic _weapon = null;
     [SerializeField] private float _bulletDestroy = 5f;
